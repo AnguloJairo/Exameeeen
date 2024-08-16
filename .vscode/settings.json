@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\flatlaf-3.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\flatlaf-intellij-themes-3.0.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\jna-jpms-5.14.0.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\jna-platform-jpms-5.14.0.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\sqlite-jdbc-3.40.0.0.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\vlcj-4.8.3.jar",
+        "c:\\Users\\angul\\OneDrive\\Escritorio\\prjSecureVision\\lib\\vlcj-natives-4.8.3.jar"
+    ]
+}
