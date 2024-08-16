@@ -11,7 +11,7 @@ import UserInterface.AJEstilo;
 
 import java.util.List;
 
-public class LoginPanel {
+public class AJLoginPanel {
 
     private RegistroBL registroBL = new RegistroBL();
 
@@ -193,7 +193,7 @@ public class LoginPanel {
 
     private void showMainFrame() {
         SwingUtilities.invokeLater(() -> {
-            new MainForm("EcuFAuna");
+            new AJMainForm("EcuFAuna");
         });
     }
 }

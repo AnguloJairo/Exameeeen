@@ -3,11 +3,11 @@ package UserInterface.Form;
 import java.awt.*;
 import javax.swing.*;
 
-public class MainForm extends JFrame {
+public class AJMainForm extends JFrame {
     private CardLayout cardLayout = new CardLayout();
     private JPanel centerPanel = new JPanel(new BorderLayout()); // Panel con BorderLayout
 
-    public MainForm(String titleApp) {
+    public AJMainForm(String titleApp) {
         customizeComponent(titleApp);
         
         // Configura el panel central solo con el AJHormigaPanel
