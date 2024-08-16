@@ -1,4 +1,5 @@
--- database: c:\Users\angul\OneDrive\Escritorio\Examen\Examen02\DataBase\Datos.sqlite
+-- database: ../DataBase/Datos.sqlite
+
 
 
 INSERT INTO Pais 
@@ -60,6 +61,7 @@ INSERT INTO Hormiga
 ,('Hormiga 2'          ,1       ,4            ,2                ,2                 ,'Inactiva')
 ,('Hormiga 3'          ,3       ,8            ,3                ,3                 ,'Activa');
 
+DELETE FROM Hormiga;
 
 
 

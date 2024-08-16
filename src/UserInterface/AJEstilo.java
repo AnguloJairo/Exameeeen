@@ -26,7 +26,7 @@ public abstract class AJEstilo {
     public static final Cursor CURSOR_HAND    = new Cursor(Cursor.HAND_CURSOR);
     public static final Cursor CURSOR_DEFAULT = new Cursor(Cursor.DEFAULT_CURSOR);
 
-    //public static final URL URL_MAIN  = AJEstilo.class.getResource("/UserInterface/Resource/images.jpg");
+    public static final URL URL_MAIN  = AJEstilo.class.getResource("/UserInterface/Resource/images.jpg");
     public static final URL URL_LOGO  = AJEstilo.class.getResource("/UserInterface/Resource/Hormiga.jpg");
     //public static final URL URL_SPLASH= AJEstilo.class.getResource("/UserInterface/Resource/Img/Splah.png");
 

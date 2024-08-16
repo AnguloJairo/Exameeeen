@@ -27,9 +27,7 @@ public class HormigueroBL {
     public boolean update(HormigueroDTO regDTO) throws Exception{
         return esDAO.update(regDTO);
     }
-    // public boolean delete(int idReg) throws Exception {
-    //     return esDAO.delete(idReg);
-    // }
+
     public boolean delete(int idReg) throws Exception {
         return esDAO.delete(idReg);
     }

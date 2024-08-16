@@ -1,4 +1,4 @@
--- database: c:\Users\angul\OneDrive\Escritorio\Examen\Examen02\DataBase\Datos.sqlite
+-- database: ../DataBase/Datos.sqlite
 
 -- Eliminar tablas si existen
 DROP TABLE IF EXISTS Hormiga;
@@ -8,6 +8,7 @@ DROP TABLE IF EXISTS IngestaNativa;
 DROP TABLE IF EXISTS Provincia;
 DROP TABLE IF EXISTS Region;
 DROP TABLE IF EXISTS Pais;
+DROP TABLE IF EXISTS Registro;
 
 -- Crear las tablas
 CREATE TABLE Pais (
@@ -79,4 +80,12 @@ CREATE TABLE Hormiga (
     ,FOREIGN KEY (ingesta_nativa_id) REFERENCES IngestaNativa(id)
 );
 
+CREATE TABLE Registro (
+        IdRegistro      INTEGER     NOT NULL PRIMARY KEY AUTOINCREMENT     
+        ,Username       VARCHAR(10) NOT NULL UNIQUE
+        ,Password       VARCHAR(30)
+        ,Estado         VARCHAR(1)  NOT NULL DEFAULT('A')
+        ,FechaCreacion  DATETIME    DEFAULT(datetime('now','locatime'))
+        ,FechaMod       DATETIME
+);
 
